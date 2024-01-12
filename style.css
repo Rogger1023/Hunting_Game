@@ -1,0 +1,93 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+#background{
+  background-color: #85586F;
+}
+.custom-height {
+  height: 50px; /* Ajuste a altura conforme necessário */
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player,
+#monstro {
+  background-color: #D0B8A8;
+  border-radius: 15px;
+  width: calc(50% - 50px); /* 50% do container, com margens */
+  height: 15rem;
+  margin: 25px;
+  box-sizing: border-box; /* Inclui a largura e altura nas margens */
+}
+
+.player {
+  background-color: #D0B8A8;
+}
+
+#menu {
+  background-color: #85586F;
+  width: 100%;
+  margin: 25px;
+  color: aliceblue;
+  border-radius: 15px;
+}
+#log {
+  background-color: #005B41;
+  width: 100%;
+  margin: 25px;
+  border-radius: 15px;
+}
+.life-bar{
+  width: 80%;
+	height: 20px;
+	border: 1px solid #aaa;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.life-bar .life{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: green;
+  border-radius: 5px;
+}
+.life-bar .life.danger{
+  background-color: red;
+}
+.result{
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.result .win{
+  color: white;
+}
+
+
+.result .lose{
+  color: red;
+}
+.button{
+  text-transform: uppercase;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  display: flex;
+  justify-content: center;
+  margin: 4px 0px;
+  padding: 3px 0px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.log{
+  background-color: #D0B8A8;
+}
